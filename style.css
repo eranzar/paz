@@ -5,9 +5,10 @@ body
 }
 
 
-nav{
-    position:relative;
-}
+ .menu{
+       position: relative;
+       margin: auto;
+ }
 
 .menu-list{
   list-style-type: none;
@@ -20,7 +21,7 @@ nav{
   margin-left: 100px; 
   height: 60px;
   margin-bottom: 10; 
-  
+
 }
 
 ul li{
@@ -81,9 +82,9 @@ input[type=text] {
     border: none;
     background-color: white;
     color: black;
-    float: left;
-    margin-top: 10px;
-    margin-left: 30px;
+    left: 50px;
+    top:10;
+     
 }
 
 
@@ -98,4 +99,39 @@ input[type=text] {
 .logo{
      
     float: right;
+}
+
+
+
+
+.retail{
+   
+   margin-top:100px;
+    width:500px;
+    height: 400px;
+
+}
+.refinary{
+    width:500px;
+    height: 400px;
+
+}
+.industry{
+    width:500px;
+    height: 400px;
+
+}
+.discount{
+    width:200px;
+    height: 300px;
+
+}
+.industrialt{
+    width:100px;
+    height: 300px;
+
+}
+.stations{
+    width:100px;
+    height: 300px;
 }
